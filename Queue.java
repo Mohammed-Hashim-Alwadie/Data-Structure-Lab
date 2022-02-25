@@ -1,14 +1,10 @@
-package H.W4;
-
 /**
- * Created by MBH on 25/02/22.
+ * Created by Arabic on 21/02/22.
  */
 public interface Queue<E> {
     boolean isEmpty();
     int size();
-    void enqueue(E e);
+    void enqueue(E el);
     E first();
     E dequeue();
-    void rotet();
 }
-
