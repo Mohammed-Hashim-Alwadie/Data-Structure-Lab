@@ -3,7 +3,7 @@
  */
 public class TestQueue {
     public static void main(String[] args) {
-        Linkage<Character> q=new LinkedQueue<>();
+        LinkedQueue<Character> q=new LinkedQueue<>();
         Scanner scanner=new Scanner(System.in);
         System.out.println("THe queue is Empty "+q.isEmpty());
         System.out.println("Pleas Enter the queue element ");
