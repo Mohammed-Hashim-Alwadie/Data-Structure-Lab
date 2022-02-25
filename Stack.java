@@ -1,11 +1,13 @@
+package H.W3.src;
+
 /**
- * Created by LAB on 10/13/2010.
+ * Created by MBH on 25/02/22.
  */
 public interface Stack<E> {
     boolean isEmpty();
-    void push(E element);
     int size();
+    void push(E element);
     E pop();
     E top();
-
 }
+
